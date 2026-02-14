@@ -3,7 +3,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 const faqs = [
   {
     q: "Para quem é esse método?",
-    a: "Para qualquer pessoa que quer começar a ganhar dinheiro online de forma real e prática, mesmo sem experiência prévia. Se você está cansado de promessas vazias, esse método é para você.",
+    a: "Para qualquer pessoa que cansou de tomar loss e quer uma estratégia assertiva.",
   },
   {
     q: "Quanto tempo leva para ver resultados?",
