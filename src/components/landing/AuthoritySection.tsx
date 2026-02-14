@@ -12,13 +12,13 @@ const AuthoritySection = () => {
         </p>
 
         {/* Logo with neon aura */}
-        <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto">
-          <div className="absolute inset-0 rounded-full bg-primary/20 blur-3xl animate-glow-pulse" />
-          <div className="absolute inset-2 rounded-full neon-border bg-card flex items-center justify-center p-6">
+        <div className="relative w-80 h-80 md:w-[28rem] md:h-[28rem] mx-auto">
+          <div className="absolute inset-0 rounded-2xl bg-primary/20 blur-3xl animate-glow-pulse" />
+          <div className="absolute inset-2 rounded-2xl neon-border bg-card flex items-center justify-center p-8">
             <img src={logo} alt="Zero a Gain - Day Trading" className="w-full h-full object-contain" />
           </div>
-          {/* Outer ring */}
-          <div className="absolute -inset-3 rounded-full border border-primary/20 animate-pulse-neon" />
+          {/* Outer border */}
+          <div className="absolute -inset-3 rounded-2xl border border-primary/20 animate-pulse-neon" />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 max-w-3xl mx-auto">
