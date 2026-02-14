@@ -17,8 +17,8 @@ const AuthoritySection = () => {
           <div className="absolute -inset-4 rounded-2xl bg-primary/30 blur-2xl animate-glow-pulse" />
           <div className="absolute -inset-8 rounded-2xl bg-primary/10 blur-3xl animate-pulse-neon" />
           {/* Card */}
-          <div className="relative w-full h-full rounded-2xl neon-border bg-card flex items-center justify-center p-6">
-            <img src={logo} alt="Zero a Gain - Day Trading" className="w-full h-full object-contain" />
+          <div className="relative w-full h-full rounded-2xl neon-border overflow-hidden">
+            <img src={logo} alt="Zero a Gain - Day Trading" className="w-full h-full object-cover" />
           </div>
         </div>
 
