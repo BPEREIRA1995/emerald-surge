@@ -11,14 +11,15 @@ const AuthoritySection = () => {
           Um método testado e aprovado por quem já estava cansado de promessas e decidiu agir.
         </p>
 
-        {/* Logo with neon aura */}
-        <div className="relative w-80 h-80 md:w-[28rem] md:h-[28rem] mx-auto">
-          <div className="absolute inset-0 rounded-2xl bg-primary/20 blur-3xl animate-glow-pulse" />
-          <div className="absolute inset-2 rounded-2xl neon-border bg-card flex items-center justify-center p-8">
+        {/* Logo with neon glow */}
+        <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto">
+          {/* Glow layers behind */}
+          <div className="absolute -inset-4 rounded-2xl bg-primary/30 blur-2xl animate-glow-pulse" />
+          <div className="absolute -inset-8 rounded-2xl bg-primary/10 blur-3xl animate-pulse-neon" />
+          {/* Card */}
+          <div className="relative w-full h-full rounded-2xl neon-border bg-card flex items-center justify-center p-6">
             <img src={logo} alt="Zero a Gain - Day Trading" className="w-full h-full object-contain" />
           </div>
-          {/* Outer border */}
-          <div className="absolute -inset-3 rounded-2xl border border-primary/20 animate-pulse-neon" />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 max-w-3xl mx-auto">
