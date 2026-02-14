@@ -1,3 +1,5 @@
+import logo from "@/assets/logo.png";
+
 const AuthoritySection = () => {
   return (
     <section className="py-20 md:py-32 relative">
@@ -9,14 +11,11 @@ const AuthoritySection = () => {
           Um método testado e aprovado por quem já estava cansado de promessas e decidiu agir.
         </p>
 
-        {/* Neon aura image placeholder */}
+        {/* Logo with neon aura */}
         <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto">
           <div className="absolute inset-0 rounded-full bg-primary/20 blur-3xl animate-glow-pulse" />
-          <div className="absolute inset-2 rounded-full neon-border bg-card flex items-center justify-center">
-            <div className="text-center">
-              <p className="font-heading text-5xl md:text-6xl font-bold text-primary">$</p>
-              <p className="font-body text-muted-foreground text-sm mt-2">Sua imagem aqui</p>
-            </div>
+          <div className="absolute inset-2 rounded-full neon-border bg-card flex items-center justify-center p-6">
+            <img src={logo} alt="Zero a Gain - Day Trading" className="w-full h-full object-contain" />
           </div>
           {/* Outer ring */}
           <div className="absolute -inset-3 rounded-full border border-primary/20 animate-pulse-neon" />
