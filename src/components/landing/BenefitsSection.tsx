@@ -9,7 +9,7 @@ const benefits = [
 {
   icon: Globe,
   title: "Liberdade Geográfica",
-  desc: "Trabalhe de onde quiser com um modelo de negócio 100% digital e escalável."
+  desc: "Opere de onde quiser com operações rápidas e assertivas."
 },
 {
   icon: Lightbulb,
