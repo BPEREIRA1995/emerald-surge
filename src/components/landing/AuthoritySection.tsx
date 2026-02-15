@@ -24,7 +24,7 @@ const AuthoritySection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 max-w-3xl mx-auto">
           {[
-            { number: "500+", label: "Taxa de Acerto Estatística" },
+            { number: "90%", label: "Taxa de Acerto Estatística" },
             { number: "97%", label: "Taxa de Satisfação" },
             { number: "24h", label: "Suporte Dedicado" },
           ].map((stat) => (
