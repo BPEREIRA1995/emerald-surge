@@ -6,7 +6,7 @@ const ProductSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-5xl font-bold uppercase mb-4">A ESTRATÉGIA COMPLETA
-            <span className="text-gradient-neon">Método Completo</span>
+
           </h2>
           <p className="text-muted-foreground font-body text-lg max-w-xl mx-auto">Tudo o que você precisa saber em um único módulo. Direto ao ponto.
 
