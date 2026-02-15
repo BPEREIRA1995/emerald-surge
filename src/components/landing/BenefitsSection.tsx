@@ -4,7 +4,7 @@ const benefits = [
 {
   icon: TrendingUp,
   title: "Escale seus Ganhos",
-  desc: "Aprenda a criar fontes de renda que crescem exponencialmente sem depender do seu tempo."
+  desc: "Seja consistente no mercado com uma estratégia que realmente funciona."
 },
 {
   icon: Globe,
