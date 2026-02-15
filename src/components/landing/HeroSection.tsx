@@ -11,7 +11,7 @@ const HeroSection = () => {
       </div>
 
       <div className="relative z-10 container mx-auto px-4 text-center py-20">
-        <p className="text-primary font-body font-semibold text-sm md:text-base uppercase tracking-[0.3em] mb-6">ESTRATÉGIA EXCLUSIVA DE RESULTADOS REAIS
+        <p className="text-primary font-body font-semibold text-sm md:text-base uppercase tracking-[0.3em] mb-6">ESTRATÉGIA EXCLUSIVA DE DAY TRADE MINI ÍNDICE
 
         </p>
 
