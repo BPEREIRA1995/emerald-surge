@@ -48,7 +48,7 @@ const PricingSection = () => {
           </div>
 
           <CTAButton size="large" className="w-full text-center">
-            Garantir Minha Vaga →
+            GARANTIR A ESTRATÉGIA →
           </CTAButton>
 
           <p className="text-muted-foreground text-xs mt-4 font-body">
