@@ -11,8 +11,8 @@ const HeroSection = () => {
       </div>
 
       <div className="relative z-10 container mx-auto px-4 text-center py-20">
-        <p className="text-primary font-body font-semibold text-sm md:text-base uppercase tracking-[0.3em] mb-6">
-          Método exclusivo de resultados reais
+        <p className="text-primary font-body font-semibold text-sm md:text-base uppercase tracking-[0.3em] mb-6">ESTRATÉGIA EXCLUSIVA DE RESULTADOS REAIS
+
         </p>
 
         <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl font-bold uppercase leading-[0.95] mb-6">
@@ -21,9 +21,9 @@ const HeroSection = () => {
           <span className="text-gradient-neon neon-text-shadow">Comece a Lucrar.</span>
         </h1>
 
-        <p className="font-body text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-          O método direto que vai te tirar do zero e te colocar no caminho dos resultados reais.
-          Sem enrolação. Sem promessas vazias. Apenas o que funciona.
+        <p className="font-body text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">O método direto que vai te tirar do zero e te colocar no caminho dos resultados reais. Sem enrolação. Sem promessas vazias. Apenas o simples que funciona.
+
+
         </p>
 
         <CTAButton size="large">
@@ -37,8 +37,8 @@ const HeroSection = () => {
 
       {/* Bottom neon line */}
       <div className="absolute bottom-0 left-0 right-0 neon-line" />
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;

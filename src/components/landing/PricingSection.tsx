@@ -21,30 +21,30 @@ const PricingSection = () => {
           </p>
 
           <div className="mb-2 relative">
-            <span className="text-muted-foreground font-body text-lg line-through">R$ 497,00</span>
+            <span className="text-muted-foreground font-body text-lg line-through">R$ 599,00</span>
           </div>
 
           <div className="mb-1 relative">
-            <span className="font-heading text-6xl md:text-7xl font-bold text-primary neon-text-shadow">
-              R$ 97
+            <span className="font-heading text-6xl md:text-7xl font-bold text-primary neon-text-shadow">R$ 267,00
+
             </span>
           </div>
-          <p className="text-muted-foreground font-body text-sm mb-8 relative">
-            ou 12x de R$ 9,70
+          <p className="text-muted-foreground font-body text-sm mb-8 relative">ou 12x de R$ 27,61
+
           </p>
 
           <div className="space-y-3 mb-8 text-left relative">
             {[
-              "Acesso vitalício ao método completo",
-              "Atualizações gratuitas",
-              "Suporte exclusivo",
-              "Garantia de 7 dias",
-            ].map((item) => (
-              <div key={item} className="flex items-center gap-3">
+            "Acesso vitalício ao método completo",
+            "Atualizações gratuitas",
+            "Suporte exclusivo",
+            "Garantia de 7 dias"].
+            map((item) =>
+            <div key={item} className="flex items-center gap-3">
                 <Check className="w-5 h-5 text-primary flex-shrink-0" />
                 <span className="font-body text-foreground text-sm">{item}</span>
               </div>
-            ))}
+            )}
           </div>
 
           <CTAButton size="large" className="w-full text-center">
@@ -58,8 +58,8 @@ const PricingSection = () => {
       </div>
 
       <div className="absolute bottom-0 left-0 right-0 neon-line" />
-    </section>
-  );
+    </section>);
+
 };
 
 export default PricingSection;
