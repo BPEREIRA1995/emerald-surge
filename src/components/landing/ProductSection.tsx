@@ -5,11 +5,11 @@ const ProductSection = () => {
     <section className="py-20 md:py-32 relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="font-heading text-3xl md:text-5xl font-bold uppercase mb-4">
-            O <span className="text-gradient-neon">Método Completo</span>
+          <h2 className="font-heading text-3xl md:text-5xl font-bold uppercase mb-4">A MÉTODO COMPLETO
+            <span className="text-gradient-neon">Método Completo</span>
           </h2>
-          <p className="text-muted-foreground font-body text-lg max-w-xl mx-auto">
-            Tudo o que você precisa em um único módulo. Direto ao ponto.
+          <p className="text-muted-foreground font-body text-lg max-w-xl mx-auto">Tudo o que você precisa saber em um único módulo. Direto ao ponto.
+
           </p>
         </div>
 
@@ -37,23 +37,23 @@ const ProductSection = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {[
-              { icon: Zap, text: "Acesso vitalício ao conteúdo" },
-              { icon: Clock, text: "Comece a aplicar em minutos" },
-              { icon: Target, text: "Estratégias testadas e validadas" },
-              { icon: ShieldCheck, text: "Garantia de 7 dias" },
-            ].map(({ icon: Icon, text }) => (
-              <div key={text} className="flex items-center gap-3 bg-secondary/50 rounded-lg p-4">
+            { icon: Zap, text: "Acesso vitalício ao conteúdo" },
+            { icon: Clock, text: "Comece a aplicar em minutos" },
+            { icon: Target, text: "Estratégias testadas e validadas" },
+            { icon: ShieldCheck, text: "Garantia de 7 dias" }].
+            map(({ icon: Icon, text }) =>
+            <div key={text} className="flex items-center gap-3 bg-secondary/50 rounded-lg p-4">
                 <Icon className="w-5 h-5 text-primary flex-shrink-0" />
                 <span className="font-body text-foreground text-sm">{text}</span>
               </div>
-            ))}
+            )}
           </div>
         </div>
       </div>
 
       <div className="absolute bottom-0 left-0 right-0 neon-line" />
-    </section>
-  );
+    </section>);
+
 };
 
 export default ProductSection;
