@@ -102,3 +102,6 @@
     text-shadow: 0 0 20px hsl(155 100% 49% / 0.5), 0 0 40px hsl(155 100% 49% / 0.2);
   }
 }
+#lovable-badge {
+display: none !important;
+}
