@@ -26,7 +26,7 @@ const AuthoritySection = () => {
           {[
             { number: "90%", label: "Taxa de Acerto Estatística" },
             { number: "6 SEG", label: "Tempo em cada operação" },
-            { number: "24h", label: "Suporte Dedicado" },
+            { number: "24h", label: "Suporte vitalício" },
           ].map((stat) => (
             <div key={stat.label} className="glass-card rounded-xl p-6">
               <p className="font-heading text-3xl md:text-4xl font-bold text-primary">{stat.number}</p>
