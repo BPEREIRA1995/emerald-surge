@@ -1,4 +1,4 @@
-const CTA_LINK = "https://go.hotmart.com/Q104440529V?dp=1";
+const CTA_LINK = "https://api.whatsapp.com/send/?phone=11912835695&text=Olá%2C+tenho+interesse+saber+mais+sobre+a+estratégia.&type=phone_number&app_absent=0";
 
 interface CTAButtonProps {
   children: React.ReactNode;
