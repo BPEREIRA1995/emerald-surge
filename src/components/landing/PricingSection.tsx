@@ -51,9 +51,9 @@ const PricingSection = () => {
             GARANTIR A ESTRATÉGIA →
           </CTAButton>
 
-          <p className="text-muted-foreground text-xs mt-4 font-body">
-            🔒 Pagamento 100% seguro via Hotmart
-          </p>
+          
+
+
         </div>
       </div>
 
