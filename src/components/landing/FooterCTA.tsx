@@ -19,12 +19,12 @@ const FooterCTA = () => {
 
       {/* Footer */}
       <div className="mt-20 border-t border-border pt-8">
-        <p className="text-center text-muted-foreground font-body text-xs">
-          © {new Date().getFullYear()} — Todos os direitos reservados. Este produto é comercializado com apoio da Hotmart.
-        </p>
+        
+
+
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default FooterCTA;
