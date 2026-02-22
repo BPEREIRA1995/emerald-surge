@@ -27,7 +27,7 @@ const BenefitsSection = () => {
   return (
     <section className="py-20 md:py-32 relative">
       <div className="container mx-auto px-4">
-        <h2 className="font-heading text-3xl md:text-5xl font-bold uppercase text-center mb-4">O QUE VOCÊ VAI
+        <h2 className="font-heading text-3xl md:text-5xl font-bold uppercase text-center mb-4">O QUE VOCÊ VAI 
           <span className="text-gradient-neon">Dominar</span>
         </h2>
         <p className="text-muted-foreground font-body text-lg text-center max-w-xl mx-auto mb-16">Uma estratégia que vai transformar completamente sua forma de operar o mercado.
