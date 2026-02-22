@@ -5,7 +5,8 @@ const ProductSection = () => {
     <section className="py-20 md:py-32 relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="font-heading text-3xl md:text-5xl font-bold uppercase mb-4">A ESTRATÉGIA COMPLETA
+          <h2 className="font-heading text-3xl md:text-5xl font-bold uppercase mb-4">A ESTRATÉGIA 
+            <span className="text-gradient-neon"> COMPLETA</span>
 
           </h2>
           <p className="text-muted-foreground font-body text-lg max-w-xl mx-auto">Tudo o que você precisa saber em um único módulo. Direto ao ponto.
